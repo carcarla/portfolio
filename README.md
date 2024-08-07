@@ -3,7 +3,7 @@
 Carla is a experienced full-stack web developer with over 10 years of professional experience. Throughout her career, she has worked on a wide range of web-related projects.
 
 Some of Carla's notable project experiences include:
-- Developing a fund product application for different region (HK: https://www.manulifeim.com.hk/ MY: https://client.asia.manulifeam.com/en_MY) using a modern tech stack including ReactJS, Typescript, Node.js, and MongoDB
+- Developing a fund product application for different region (HK: https://www.manulifeim.com.hk/, MY: https://client.asia.manulifeam.com/en_MY) using a modern tech stack including ReactJS, Typescript, Node.js, and MongoDB
 - Implementing the corporate website for Cathay Pacific (https://www.cathaypacific.com/) using AEM as the content management system, along with Node.js and jQuery
 - Building the website for Lee Gardens (https://www.leegardens.com.hk/), using the Kentico CMS, Bootstrap, and jQuery
 
@@ -20,7 +20,7 @@ The report is based on the selected date or date range to show top 5 websites an
 
 ## Product
 
-When you linked to landing page and it will request to sign in. You can sign in](http://localhost/login) or [sign up](http://localhost/register) your own account for accessing the web application.
+When you linked to landing page and it will request to sign in. You can [sign in](http://localhost/login) or [sign up](http://localhost/register) your own account for accessing the web application.
 
 ![Login cap screen](https://user-images.githubusercontent.com/48790647/54965206-81aacd80-4faa-11e9-9842-9b6c5d27e31b.png)
 
