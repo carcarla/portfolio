@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  br
+  div.row
+    div.col-sm-8
+      h1 #{title}
+    div.col-sm-4.signout
+      span #{user}
+      br
+      a#signout(href='javascript:void(0)') SignOut 
+  br
+  p
+  h4 Report date range: 
+  div#datepicker.input-daterange.input-group
+    input#start-date.input-sm.form-control(type='text' name='start' autocomplete='off')
+    span.input-group-addon to
+    input#end-date.input-sm.form-control(type='text' name='end' autocomplete='off')
+  br  
+  p#message.alert.alert-info(style='display:none')
+  br
+  table.table.table-striped
+    thead
+      tr
+        th #
+        th Website
+        th Visits
+    tbody#trdata
+      tr

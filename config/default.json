@@ -1,0 +1,27 @@
+{
+  "connectionString": "mongodb://localhost/dbtopwebsites",
+  "dbName":"dbtop5websites",
+  "cache": {
+		"TTL": 1000
+	},
+	"csvfolder" : "../../public/files/",
+	"exclusionList": "http://private-1de182-mamtrialrankingadjustments4.apiary-mock.com/exclusions",
+	"routers": {
+    "api": "api"
+  },
+  "authentication": {
+  	"cookies" : "30"
+  },
+  "useS3": true,
+  "S3": {
+  	"access": {
+      "accessKeyId": "[Access Key ID]",
+      "secretAccessKey": "[Secret Access Key]",
+      "region": "[Region]"
+    },
+    "bucket": "[Bucket]",
+    "folder": "[Upload Folder Path]"
+  },
+  "numberOfRecord" : 5,
+  "dateformat": "YYYY-MM-DD"
+}

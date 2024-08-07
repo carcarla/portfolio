@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  br
+  div.col-md-6.col-md-offset-3
+    h1 #{title}
+    p#message.alert.alert-danger(style='display:none')
+    form.login-form(name='login-form' class='login-form')
+      div.form-group
+        label(for='email') Email
+        input.form-control(type='text' name='email' maxlength='64')
+      div.form-group
+        label(for='password') Password
+        input.form-control(type='password' name='password' maxlength='32')
+      div.form-group
+        button#login.btn.btn-primary(type='submit') Sign In
+        a.btn.btn-link(href='/register') Sign up now
